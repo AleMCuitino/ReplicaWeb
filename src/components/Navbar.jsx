@@ -4,15 +4,15 @@ import logo from "../assets/images/logo.png";
 function Navbar() {
 return (
     <>
-    <nav class="navbar navbar-expand-lg justify-content-center">
-        <div class="container-fluid">
-            <a class="navbar-brand text-white" href="#">
-                <img className="img-fluid" width="30px"src={logo} alt="soundwave"/>Soundwave 
+    <nav class="navbar navbar-expand-lg">
+        <div class="navbar-collapse container-fluid d-flex nav-sound">
+            <a class="text-white logo-text" href="#">
+                <img className="img-fluid logo-img" width="40px"src={logo} alt="soundwave"/>Soundwave 
             </a>
-                <div class="navbar-collapse d-flex" id="navbarNav">
-                    <ul class="navbar-nav">
+                <div class="d-flex" id="navbarNav">
+                    <ul class="navbar-nav d-flex flex-row sections gap-2">
                         <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#">Discover</a>
+                            <a class="nav-link active text-white"  href="#">Discover</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#">Join</a>

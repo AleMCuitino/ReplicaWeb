@@ -1,4 +1,51 @@
-:root {
-    --main-bg-color: #2F303A;
-    --text-nav-color: #ffffff;
+.nav-sound {
+    margin: 5% 5% 40% 5% !important;
 }
+
+.logo-img {
+    margin-right: 2vw;
+}
+
+.logo-text {
+    font-size:1rem;
+    text-decoration: none;
+}
+
+.sections {
+    font-size:0.8rem;
+}
+/*media queries*/
+@media only screen and (min-width: 425px) {
+    .nav-sound {
+        margin: 5% 10% 30% 10% !important;
+    }
+    .logo-text {
+        font-size:1.25rem !important;
+    }
+    .sections {
+        font-size:1rem !important;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .nav-sound {
+        margin: 5% 12.5% 20% 12.5% !important;
+    }
+    .logo-text {
+        font-size:1.5rem !important;
+    }
+    .sections {
+        font-size:1.25rem !important;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .nav-sound {
+        margin: 5% 15% 15% 15% !important;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .nav-sound {
+        margin: 5% 17.5% 10% 17.5% !important;
+    }
+}
+
+
