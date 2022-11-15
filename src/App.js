@@ -1,14 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './components/Home'
 
 function App() {
   return (
     <div className="">
-      <header className="">
-      </header>
-      <h1 className="mt-5">
-        Réplica Web
-      </h1>
+      <Home />
     </div>
   );
 }
