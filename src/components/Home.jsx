@@ -1,15 +1,18 @@
 import Navbar from './Navbar';
+import "../style/Home.css"
 
 function Home() {
     return (
-        <div className="home">            
+        <>
+        <body>           
             <header>
                 <Navbar/>
             </header>
             <main>
                 <h1 className="mt-5">Feel the music</h1>
             </main>
-        </div>
+        </body>     
+        </>
     );
 }
 export default Home;
