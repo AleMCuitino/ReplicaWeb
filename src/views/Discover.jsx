@@ -9,7 +9,9 @@ function Discover() {
       <header>
         {Navbar}
       </header>
-
+      <div>
+        {MainDiscover}
+      </div>
     </>
   )
 }
