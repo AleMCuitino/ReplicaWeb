@@ -3,15 +3,35 @@
 }
 
 .title {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .girl {
     display: none;
+    align-items:flex-end;
+}
+/*media queries*/
+@media only screen and (min-width: 425px) {
+
 }
 
 @media only screen and (min-width: 768px) {
     .girl {
-        display:block
+        display:block;
+        align-items:flex-end !important;
+        width: 40vh ;
     }   
+}
+
+@media only screen and (min-width: 1024px) {
+    .girl {
+        width: 45vh ;
+        align-items:flex-end !important;
+    } 
+}
+
+@media only screen and (min-width: 1440px) {
+    .girl {
+        width: 50vh ;
+    } 
 }
