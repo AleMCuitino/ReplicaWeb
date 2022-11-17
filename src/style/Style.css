@@ -5,6 +5,7 @@
     --icon-bg-color: #202027;
     --text-main-color: #ffffff;
     --join-button-color: #1762A7;
+    --accent-text-color:rgb(187,52,126);
 }
 body {
     background-color: var(--main-bg-color)!important;
