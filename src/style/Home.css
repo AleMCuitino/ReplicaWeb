@@ -1,5 +1,38 @@
+
+.circle-1 {
+    left: 50px;
+    height: 320px;
+    width: 320px;
+    background-color: var(--circle-1-color);
+    border-radius: 50%;
+    position: absolute;
+    top: 325px;
+    z-index: -1;
+}
+.circle-2 {
+    left: 380px;
+    height: 320px;
+    width: 320px;
+    background-color: var(--circle-2-3-color);
+    border-radius: 50%;
+    position: absolute;
+    top: 175px;
+    z-index: -1;
+}
+.circle-3 {
+    left: 950px;
+    height: 600px;
+    width: 600px;
+    background-color: var(--circle-2-3-color);
+    border-radius: 50%;
+    position: absolute;
+    top: 350px;
+    z-index: -1;
+}
+
 .home {
     margin: 30% 0 0 0;
+    z-index: 1;
 }
 
 .text-home {
@@ -7,7 +40,7 @@
 }
 
 .title {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .girl {

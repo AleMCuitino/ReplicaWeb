@@ -6,9 +6,12 @@
     --text-main-color: #ffffff;
     --join-button-color: #1762A7;
     --accent-text-color:rgb(187,52,126);
+    --circle-1-color:#bc3a801a;
+    --circle-2-3-color:#3457b21a;
 }
 body {
     background-color: var(--main-bg-color)!important;
     font-family: 'Poppins', sans-serif !important;
     color: var(--text-main-color) !important;
+    overflow: hidden;
 }
