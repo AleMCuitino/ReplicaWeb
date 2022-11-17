@@ -1,3 +1,7 @@
+.home {
+    margin: 30% 0 0 0;
+}
+
 .text-home {
     margin-left: 15%;
 }
@@ -12,10 +16,15 @@
 }
 /*media queries*/
 @media only screen and (min-width: 425px) {
-
+    .home {
+        margin: 25% 0 0 0;
+    }
 }
 
 @media only screen and (min-width: 768px) {
+    .home {
+        margin: 30% 0 0 0;
+    }
     .girl {
         display:block;
         align-items:flex-end !important;
@@ -28,10 +37,30 @@
         width: 45vh ;
         align-items:flex-end !important;
     } 
+    .home {
+        margin: 10% 15% 0 15%;
+    }
 }
 
 @media only screen and (min-width: 1440px) {
     .girl {
         width: 50vh ;
     } 
+    .home {
+        margin: 10% 15% 0 20%;
+    }
 }
+
+/*.cercles {
+    position: relative;
+    .cercle {
+        top: -150px;
+        left: 80px;
+        height: 80px;
+        width: 80px;
+        background-color: var(--cercle-1);
+        border-radius: 50%;
+        z-index: -1;
+        position: absolute;
+    }
+}*/

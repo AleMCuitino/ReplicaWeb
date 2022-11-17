@@ -1,0 +1,12 @@
+.footer-cont {
+    background-color: var(--icon-bg-color);
+    margin: 5% 0 0 0;
+    height: 10vh;
+    width: 100%;
+    position: absolute;
+}
+
+.text-footer {
+    font-size: 0.8rem;
+    font-weight: 600;
+}

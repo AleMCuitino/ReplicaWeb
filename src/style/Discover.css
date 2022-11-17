@@ -1,0 +1,102 @@
+.discover {
+    margin:0 15% 0 15%;
+}
+
+.icons {
+    margin:5% 25% 5% 0;
+}
+.covers {
+    width: 40vw;
+    justify-content:center;
+}
+
+.icon {
+    background-color: var(--icon-bg-color);
+    height: 20vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.microphone, 
+.albums,
+.more {
+    width: 50%;
+    top: 100%;
+    left: 30%;
+}
+
+.icon-text {
+    font-size: 0.6rem;
+}
+
+.description {
+    font-size: 0.9rem;
+}
+
+/*media queries*/
+@media only screen and (min-width: 425px) {
+    .discover {
+        margin:2% 15% 5% 15%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .discover {
+        display: flex;
+        justify-content: space-around;
+        margin:20% 15% 17.5% 15%;
+    }
+    .icons {
+        margin:8% 60% 8% 0;
+    }
+    .icon {
+        height: 15vh;
+        width: 5vw;
+        margin-right: 5%;
+    }
+    .covers {
+        width: auto;
+        height: 30vh;
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .discover {
+        margin:5% 15% 5% 15%;
+    }
+    .icons {
+        margin:8% 60% 8% 0;
+    }
+    .icon {
+        height: 15vh;
+        width: 5vw;
+    }
+    .covers {
+        width: auto;
+        height: 40vh;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .discover {
+        margin:10% 15% 15% 15%;
+    }
+    .title-discover {
+        font-size: 3rem;
+    }
+    .icons {
+        margin:8% 60% 8% 0;
+    }
+    .icon {
+        height: 15vh;
+        width: 5vw;
+    }
+    .covers {
+        width: auto;
+        height: 30vh;
+    }
+}

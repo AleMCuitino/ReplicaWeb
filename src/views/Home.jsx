@@ -1,6 +1,6 @@
 import Navbar from '../components/Navbar';
 import "../style/Home.css"
-import Main from '../components/Main';
+import MainHome from '../components/MainHome';
 
 function Home() {
     return (
@@ -9,7 +9,7 @@ function Home() {
                 <Navbar/>
             </header>
             <div>
-                <Main/>
+                <MainHome/>
             </div>
         </>
     );

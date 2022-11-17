@@ -1,19 +1,22 @@
-import React from 'react'
 import Navbar from '../components/Navbar';
-import "../style/Home.css"
 import MainDiscover from '../components/MainDiscover';
+import Footer from '../components/Footer';
+import "../style/Home.css"
 
 function Discover() {
   return (
     <>
       <header>
-        {Navbar}
+        <Navbar />
       </header>
       <div>
-        {MainDiscover}
+        <MainDiscover />
+      </div>
+      <div>
+        <Footer />
       </div>
     </>
   )
 }
 
-export default Discover
+export default Discover;
