@@ -1,5 +1,6 @@
 import "../style/Home.css"
-import girl from '../assets/images/landing-page-girl.png'
+import girl from '../assets/images/landing-page-girl.png';
+import { Link } from 'react-router-dom';
 
 function MainHome() {
     return (
@@ -14,7 +15,7 @@ function MainHome() {
                 <div className="text-home">
                     <h1 className="title mt-5">Feel the music</h1>
                     <p className="description">Stream over 20 thousand songs with one click</p>
-                    <button type="button" className="btn btn-primary">Join Now</button>
+                    <Link to="/join" className="nav-link text-white"><button type="button" className="btn btn-primary">Join now</button></Link>
                 </div>
             </div>
         </>    
