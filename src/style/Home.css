@@ -1,42 +1,42 @@
-
 .circle-1 {
     left: 50px;
-    height: 320px;
-    width: 320px;
+    height: 100px;
+    width: 100px;
     background-color: var(--circle-1-color);
     border-radius: 50%;
     position: absolute;
-    top: 325px;
+    top: 550px;
     z-index: -1;
 }
 .circle-2 {
-    left: 380px;
-    height: 320px;
-    width: 320px;
+    left: 150px;
+    height: 100px;
+    width: 100px;
     background-color: var(--circle-2-3-color);
     border-radius: 50%;
     position: absolute;
-    top: 175px;
+    top: 100px;
     z-index: -1;
 }
 .circle-3 {
-    left: 950px;
-    height: 600px;
-    width: 600px;
+    left: 350px;
+    height: 300px;
+    width: 300px;
     background-color: var(--circle-2-3-color);
     border-radius: 50%;
     position: absolute;
-    top: 350px;
+    top: 550px;
     z-index: -1;
 }
 
 .home {
-    margin: 30% 0 0 0;
+    margin: 30% 0% 0 0;
     z-index: 1;
 }
 
 .text-home {
     margin-left: 15%;
+    margin-right: 30%;
 }
 
 .title {
@@ -56,13 +56,38 @@
 
 @media only screen and (min-width: 768px) {
     .home {
-        margin: 30% 0 0 0;
+        margin: 22.5% 0 0 0;
     }
     .girl {
         display:block;
         align-items:flex-end !important;
         width: 40vh ;
-    }   
+    } 
+    .text-home {
+        margin-left: 15%;
+        margin-right: 5%;
+    }
+    .circle-1 {
+        left: 0px;
+        height: 200px;
+        width: 200px;
+        top: 550px;
+        z-index: -1;
+    }
+    .circle-2 {
+        left: 150px;
+        height: 200px;
+        width: 200px;
+        top: 300px;
+        z-index: -1;
+    }
+    .circle-3 {
+        left: 650px;
+        height: 500px;
+        width: 500px;
+        top: 450px;
+        z-index: -1;
+    }  
 }
 
 @media only screen and (min-width: 1024px) {
@@ -71,7 +96,28 @@
         align-items:flex-end !important;
     } 
     .home {
-        margin: 10% 15% 0 15%;
+        margin: 12.5% 15% 0 15%;
+    }
+    .circle-1 {
+        left: 50px;
+        height: 320px;
+        width: 320px;
+        top: 325px;
+        z-index: -1;
+    }
+    .circle-2 {
+        left: 380px;
+        height: 320px;
+        width: 320px;
+        top: 175px;
+        z-index: -1;
+    }
+    .circle-3 {
+        left: 950px;
+        height: 600px;
+        width: 600px;
+        top: 350px;
+        z-index: -1;
     }
 }
 
@@ -83,17 +129,3 @@
         margin: 10% 15% 0 20%;
     }
 }
-
-/*.cercles {
-    position: relative;
-    .cercle {
-        top: -150px;
-        left: 80px;
-        height: 80px;
-        width: 80px;
-        background-color: var(--cercle-1);
-        border-radius: 50%;
-        z-index: -1;
-        position: absolute;
-    }
-}*/

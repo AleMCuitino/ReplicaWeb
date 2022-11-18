@@ -28,7 +28,7 @@
 }
 @media only screen and (min-width: 768px) {
     .nav-sound {
-        margin: 2.5% 12.5% 5% 12.5% !important;
+        margin: 2.5% 12.5% 0% 12.5% !important;
     }
     .logo-text {
         font-size:1.5rem !important;
@@ -39,7 +39,7 @@
 }
 @media only screen and (min-width: 1024px) {
     .nav-sound {
-        margin: 2.5% 15% 5% 15% !important;
+        margin: 2.5% 15% 0% 15% !important;
     }
 }
 @media only screen and (min-width: 1440px) {
