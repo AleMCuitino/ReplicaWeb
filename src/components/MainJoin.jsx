@@ -2,7 +2,9 @@ import "../style/Join.css"
 
 function MainJoin() {
     return (
-        <>
+    <> 
+        <div className="circle-1-join"></div>
+        <div className="circle-2-join"></div>
             <div className="join justify-content-around">
                 <div className="text-join">
                     <p className="title-join">Join the <p className="title-join-pink">fun.</p></p>

@@ -1,9 +1,9 @@
 import Navbar from '../components/Navbar';
 import MainJoin from '../components/MainJoin';
 import Footer from '../components/Footer';
-import "../style/Home.css"
+import "../style/Join.css"
 
-function Discover() {
+function Join() {
     return (
     <>
         <header>
@@ -19,4 +19,4 @@ function Discover() {
     )
 }
 
-export default Discover;
+export default Join;
