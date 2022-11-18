@@ -11,3 +11,13 @@
     font-size: 0.8rem;
     font-weight: 600;
 }
+
+.about,
+.twitter {
+    margin-left: 15%;
+}
+
+.face,
+.contact {
+    margin-right: 15%;
+}
